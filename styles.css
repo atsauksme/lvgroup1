@@ -1,0 +1,125 @@
+.box {
+                
+  border-radius: 25px;              
+  background-color: #FEE6C8;
+  width: 20%;
+  border: 12px;
+  border-color: black;
+  padding: 40px;
+  margin: auto;
+  margin-top: 70px;
+  text-align: center;
+  font-family: 'Trebuchet MS', sans-serif;
+  box-shadow: 5px 5px #FA9C1B;
+  
+}
+		*,
+		*::before,
+		*::after {
+			padding: 0;
+			margin: 0;
+			box-sizing: border-box;
+                       
+		}
+		html,
+		body {
+			background-color: white;
+			color: black;
+		}
+		.center {
+                    position:relative;
+                    margin-top: 50px;
+                    bottom: 20px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+                        
+		}
+                .center1{
+                  position:relative;
+                    margin-top: 20px;
+                    bottom: 20px;
+			display: flex;
+			justify-content: center;
+			align-items: center;  
+                }
+		.rating input {
+			display: none;
+		}
+		.rating {
+			display: flex;
+		}
+		.rating > label {
+			display: block;
+			width: 20px;
+			height: 20px;
+			font-size: 20px;
+			color: yellow; /* color browser dependent */
+			font-family: sans-serif;
+			opacity: 0.33;
+			transition: opacity .2s; /* OPTIONAL */
+		}
+		
+		#star-1:checked ~ label[for="star-1"],
+		#star-1:hover ~ label[for="star-1"],
+
+		#star-2:checked ~ label[for="star-1"],
+		#star-2:checked ~ label[for="star-2"],
+		#star-2:hover ~ label[for="star-1"],
+		#star-2:hover ~ label[for="star-2"],
+
+		#star-3:checked ~ label[for="star-1"],
+		#star-3:checked ~ label[for="star-2"],
+		#star-3:checked ~ label[for="star-3"],
+		#star-3:hover ~ label[for="star-1"],
+		#star-3:hover ~ label[for="star-2"],
+		#star-3:hover ~ label[for="star-3"],
+
+		#star-4:checked ~ label[for="star-1"],
+		#star-4:checked ~ label[for="star-2"],
+		#star-4:checked ~ label[for="star-3"],
+		#star-4:checked ~ label[for="star-4"],
+		#star-4:hover ~ label[for="star-1"],
+		#star-4:hover ~ label[for="star-2"],
+		#star-4:hover ~ label[for="star-3"],
+		#star-4:hover ~ label[for="star-4"],
+
+		#star-5:checked ~ label[for="star-1"],
+		#star-5:checked ~ label[for="star-2"],
+		#star-5:checked ~ label[for="star-3"],
+		#star-5:checked ~ label[for="star-4"],
+		#star-5:checked ~ label[for="star-5"],
+		#star-5:hover ~ label[for="star-1"],
+		#star-5:hover ~ label[for="star-2"],
+		#star-5:hover ~ label[for="star-3"],
+		#star-5:hover ~ label[for="star-4"],
+		#star-5:hover ~ label[for="star-5"] {
+			opacity: 1;
+		}
+                
+                .button{
+                    background-color: #FA9C1B;
+                    text-align: center;
+                    border-color: black;
+                    border-radius: 15px;
+                    color: black;
+                    padding: 7px;
+                    margin-top: 10px;
+                    margin-bottom: 40px;
+                    font-family: 'Trebuchet MS', sans-serif;
+                }
+                
+                .button:hover {
+      background-color:#FEE6C8;
+      transition: 0.7s;
+  }
+  
+  .input1{
+                  background-color: #FEE6C8;
+                  border-color: black;
+                  border-radius: 15px;
+                  font-family: 'Trebuchet MS', sans-serif;
+                  padding: 7px;
+                  margin-top: 10px;
+                  margin-bottom: 40px;
+                }
